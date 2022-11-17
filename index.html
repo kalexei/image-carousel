@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Javascript image carousel" />
+    <meta name="keywords" content="javascript, image, carousel, project" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Image Carousel</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel">
+        <button class="arrow" data-direction="back">←</button>
+        <a
+          data-index="0"
+          target="_blank"
+          class="image-link shown"
+          href="https://www.pexels.com/photo/person-walking-between-green-forest-trees-15286/"
+        >
+          <img
+            src="/public/images/image1.jpg"
+            alt="Dense greep forest"
+            title="Photo by Luis del Río: https://www.pexels.com/photo/person-walking-between-green-forest-trees-15286/"
+        /></a>
+        <a
+          data-index="1"
+          target="_blank"
+          class="image-link"
+          href="https://www.pexels.com/photo/scenic-view-of-snow-capped-mountains-during-night-3408744/"
+        >
+          <img
+            src="/public/images/image2.jpg"
+            alt="Polar lights (aurora)"
+            title="Photo by stein egil liland: https://www.pexels.com/photo/scenic-view-of-snow-capped-mountains-during-night-3408744/"
+        /></a>
+        <a
+          data-index="2"
+          target="_blank"
+          class="image-link"
+          href="https://www.pexels.com/photo/photo-of-coconut-trees-on-seashore-1591373/"
+        >
+          <img
+            src="/public/images/image3.jpg"
+            alt="Palm on a beach in Maldives"
+            title="Photo by Asad Photo Maldives: https://www.pexels.com/photo/photo-of-coconut-trees-on-seashore-1591373/"
+        /></a>
+        <a
+          data-index="3"
+          target="_blank"
+          class="image-link"
+          href="https://www.pexels.com/photo/sand-dunes-under-cloudy-sky-4857569/"
+        >
+          <img
+            src="/public/images/image4.jpg"
+            alt="Sunset in a desert"
+            title="Photo by Denys Gromov: https://www.pexels.com/photo/sand-dunes-under-cloudy-sky-4857569/"
+        /></a>
+        <button class="arrow" data-direction="forward">→</button>
+      </div>
+    </div>
+  </body>
+</html>
