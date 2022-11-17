@@ -20,8 +20,27 @@ body {
   height: 100%;
   display: grid;
   place-items: center;
+  position: relative;
 }
 
+.links {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
 .carousel {
   position: relative;
   display: flex;
